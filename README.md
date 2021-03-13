@@ -33,7 +33,7 @@ sudo ./install.sh
 
 ------------------------------------------------------------------------------
 
-<b>5-</b> Alterar URL da aplicação e configurar o smtp da aplicação no ".ENV";<br>
+<b>5-</b> Alterar a <b>URL da aplicação</b> e configurar o <b>smtp da aplicação</b> no ".ENV";<br>
 vim /var/www/bookstack/.env<br>
 
 ------------------------------------------------------------------------------
