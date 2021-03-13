@@ -9,7 +9,7 @@ sudo echo "SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 0 */12 * * * root certbot -q renew --apache" >> /etc/cron.d/certbot
 # INSTALACAO DO BOOKSTACK
-sudo wget https://raw.githubusercontent.com/BookStackApp/devops/master/scripts/installation-ubuntu-18.04.sh
+sudo wget https://raw.githubusercontent.com/aldeiacloud/bookstack/main/installation-ubuntu-18.04.sh
 sudo chmod a+x installation-ubuntu-18.04.sh
 sudo ./installation-ubuntu-18.04.sh
 # CRIAR SWAP
