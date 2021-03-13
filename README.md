@@ -1,6 +1,6 @@
 <h2>Wiki Bookstack na AWS de uma forma rápida!</h2>
 
-<b>RESUMO: <br>Configuração de uma aplicação Bookstack com Apache<br>
+<b>RESUMO: <br>Configuração de uma aplicação Bookstack com Apache.<br>
 Contém certificado SSL LetsEncrypt com renovação automática e redirecionamento de HTTP para HTTPS.</b>
 
  <b>Extras:</b>
