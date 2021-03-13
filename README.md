@@ -21,7 +21,7 @@ sudo ./install.sh
 
 ------------------------------------------------------------------------------
 
-<b>2-</b> Atachar Elastic IP na instância;<br>
+<b>2-</b> Atachar um <b>Elastic IP</b> na instância;<br>
 
 ------------------------------------------------------------------------------
 
@@ -29,13 +29,14 @@ sudo ./install.sh
 
 ------------------------------------------------------------------------------
 
-<b>4-</b> Adicionar o apontamento criado no "ServerName" do bookstack.conf nos sites-enable;<br>
+<b>4-</b> Adicionar o apontamento criado no <b>"ServerName" do bookstack.conf</b> no "/etc/apache2/sites-enable/";<br>
 
 ------------------------------------------------------------------------------
 
-<b>5-</b> Alterar URL da aplicação e configurar o smtp da aplicação no .ENV;<br>
+<b>5-</b> Alterar URL da aplicação e configurar o smtp da aplicação no ".ENV";<br>
+vim /var/www/bookstack/.env<br>
 
 ------------------------------------------------------------------------------
 
-<b>5-</b> Instalar o certificado LetsEncrypt.</b><br>
+<b>6-</b> Instalar o certificado LetsEncrypt.</b><br>
 sudo certbot --apache
