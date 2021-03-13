@@ -13,7 +13,11 @@ Contém certificado SSL LetsEncrypt com renovação automática e redirecionamen
 
 <b>1- </b>AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DA ZONA/VPC DA EC2, ADICIONAR AS LINHAS ABAIXO À CAIXA EM BRANCO:
 
-
+#!/bin/bash
+cd /tmp
+sudo wget https://raw.githubusercontent.com/aldeiacloud/bookstack/main/install.sh
+sudo chmod +x install.sh
+sudo ./install.sh
 
 ------------------------------------------------------------------------------
 
