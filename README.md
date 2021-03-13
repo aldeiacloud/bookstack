@@ -29,7 +29,7 @@ sudo ./install.sh
 
 ------------------------------------------------------------------------------
 
-<b>4-</b> Adicionar o apontamento criado no <b>"ServerName" do bookstack.conf</b> no "/etc/apache2/sites-enable/";<br>
+<b>4-</b> Adicionar o subdomínio no <b>"ServerName" do bookstack.conf</b> dentro de <b>"/etc/apache2/sites-enable/"</b>;<br>
 
 ------------------------------------------------------------------------------
 
